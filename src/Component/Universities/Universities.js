@@ -8,6 +8,7 @@ import { Box } from "@mui/system";
 import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
+import AccountBalanceIcon from "@mui/icons-material/AccountBalance";
 import { CustomBtn, CustomTable, CustomTd, CustomTh } from "../Styled/UseStyle";
 
 const Universities = () => {
@@ -33,7 +34,8 @@ const Universities = () => {
       >
         <Box>
           <Typography variant="h5" color="white" mt={2}>
-            See Below University list if don't then search it.
+            See Below University list. &nbsp;
+            <AccountBalanceIcon />
           </Typography>
         </Box>
         <Box sx={{ textAlign: "right", pr: 5 }}>
