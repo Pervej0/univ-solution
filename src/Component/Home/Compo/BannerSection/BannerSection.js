@@ -6,9 +6,9 @@ import SchoolIcon from "@mui/icons-material/School";
 
 const BannerSection = () => {
   const bgContent = {
-    height: "100vh",
+    height: "60vh",
     width: "100%",
-    background: `linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)), url(${BGImg})`,
+    background: `linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.5)), url(${BGImg})`,
     backgroundPosition: "center center",
     backgroundSize: "cover",
     backgroundRepeat: "no-repeat",
