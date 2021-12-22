@@ -4,7 +4,7 @@ Here it's a country wise University list website.
 
 ## Live Site
 
-In the project directory, you can run:
+(https://univ-solution.netlify.app/)
 
 ### Description
 
