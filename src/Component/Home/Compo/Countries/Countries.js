@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Grid, Link, List, ListItem, TextField } from "@mui/material";
+import { Grid, List, ListItem } from "@mui/material";
 import { Box } from "@mui/system";
 import { useNavigate } from "react-router-dom";
 import {
@@ -23,7 +23,7 @@ const Countries = () => {
 
   return (
     <CustomContainer>
-      <Box sx={{ px: 3, my: 6 }}>
+      <Box sx={{ my: 6 }}>
         <Box my={4}>
           <InputField>
             <input
@@ -56,7 +56,7 @@ const Countries = () => {
               </ListItem>
             </List>
           </Grid>
-          <Grid item md={4} sm={6} xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <List
               sx={{
                 fontWeight: 500,
@@ -74,11 +74,11 @@ const Countries = () => {
                 <CustomLink onClick={handleCountries}>Germany</CustomLink>
               </ListItem>
               <ListItem>
-                <CustomLink onClick={handleCountries}>Denmark</CustomLink>
+                <CustomLink onClick={handleCountries}>Hungary</CustomLink>
               </ListItem>
             </List>
           </Grid>
-          <Grid item md={4} sm={6} xs={4}>
+          <Grid item md={4} sm={6} xs={12}>
             <List
               sx={{
                 fontWeight: 500,
@@ -87,16 +87,16 @@ const Countries = () => {
               }}
             >
               <ListItem>
-                <CustomLink onClick={handleCountries}>Armenia</CustomLink>
+                <CustomLink onClick={handleCountries}>India</CustomLink>
               </ListItem>
               <ListItem>
-                <CustomLink onClick={handleCountries}>Bangladesh</CustomLink>
+                <CustomLink onClick={handleCountries}>Japan</CustomLink>
               </ListItem>
               <ListItem>
-                <CustomLink onClick={handleCountries}>Canada</CustomLink>
+                <CustomLink onClick={handleCountries}>Kenya</CustomLink>
               </ListItem>
               <ListItem>
-                <CustomLink onClick={handleCountries}>Denmark</CustomLink>
+                <CustomLink onClick={handleCountries}>Lebanon</CustomLink>
               </ListItem>
             </List>
           </Grid>

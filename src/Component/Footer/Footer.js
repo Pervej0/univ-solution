@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <Box sx={{ backgroundColor: "#d7d7d7", py: 2 }}>
-      <Typography variant="body2">
+      <Typography variant="body2" sx={{ fontWeight: 500 }}>
         &copy; Reserverd, Designed by &nbsp;
         <Link to="https://pervej0.web.app/" style={{ textDecoration: "none" }}>
           Md Pervej Hossain
